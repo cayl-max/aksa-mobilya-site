@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aksa Mobilya</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #ffffff;
+      padding: 20px 40px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+      color: #222;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #555;
+      margin-right: 20px;
+      font-weight: 500;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1616628182506-b9389943f9db') no-repeat center center/cover;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 0 0 10px #000;
+    }
+
+    .hero h2 {
+      font-size: 48px;
+    }
+
+    .section {
+      padding: 60px 40px;
+    }
+
+    .section h3 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .product {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 16px;
+      text-align: center;
+    }
+
+    .product img {
+      max-width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 4px;
+    }
+
+    .product h4 {
+      margin: 10px 0 5px;
+    }
+
+    .product p {
+      color: #888;
+      margin: 5px 0;
+    }
+
+    .product button {
+      background-color: #222;
+      color: white;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .product button:hover {
+      background-color: #444;
+    }
+
+    footer {
+      background-color: #eee;
+      padding: 20px;
+      text-align: center;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>AKSA MOBİLYA</h1>
+    <nav>
+      <a href="#products">Ürünler</a>
+      <a href="#contact">İletişim</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h2>Modern Yaşam Alanları</h2>
+  </div>
+
+  <div class="section" id="products">
+    <h3>Öne Çıkan Ürünler</h3>
+    <div class="products">
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1616628182506-b9389943f9db" alt="Koltuk Takımı">
+        <h4>Köşe Koltuk Takımı</h4>
+        <p>14.500 ₺</p>
+        <button>Sepete Ekle</button>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1601979031925-228201a5d9a6" alt="Yemek Masası">
+        <h4>Ahşap Yemek Masası</h4>
+        <p>9.750 ₺</p>
+        <button>Sepete Ekle</button>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1582582420092-8dfc5a4df91f" alt="TV Ünitesi">
+        <h4>TV Ünitesi</h4>
+        <p>6.300 ₺</p>
+        <button>Sepete Ekle</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="contact">
+    <h3>İletişim</h3>
+    <p>📞 0555 555 55 55<br>
+       📧 info@aksamobilya.com<br>
+       📍 İstanbul, Türkiye</p>
+  </div>
+
+  <footer>
+    © 2025 Aksa Mobilya | Tüm hakları saklıdır.
+  </footer>
+
+</body>
+</html>
